@@ -6,5 +6,5 @@
 
 # A very basic reboot script!
 
-clear
+clear && printf '\e[3J'
 shutdown -r now "Rebooting after successful Dinobuildr build."
