@@ -5,5 +5,5 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 # A very basic reboot script!
-osascript -e 'tell app "/Applications/Utilities/Terminal.app" to quit'
+osascript -e 'tell application "Terminal" to close first window' & exit
 shutdown -r now "Rebooting after successful Dinobuildr build."
